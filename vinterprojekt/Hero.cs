@@ -1,6 +1,6 @@
 public class Hero
 {
     public string Name; 
-    public int Hp=0; 
-    public string Weapon=""; 
+    public string Weapon; 
+    public int WeaponHp; 
 }

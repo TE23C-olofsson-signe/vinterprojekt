@@ -1,11 +1,18 @@
 
 
+using System.Runtime;
+using System.Runtime.CompilerServices;
+
 public class Red : Hero 
 {
     public Red() {
-        Hp = 600;
+        Name="Red"; 
         Weapon="Clock"; 
+        WeaponHp=40; 
     }
- 
 
+    private void Fireatack()
+    {
+        
+    }
 }
