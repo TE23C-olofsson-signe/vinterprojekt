@@ -2,7 +2,7 @@ public class Chloe:Hero
 {
 public Chloe()
     {
-        Name="Chloe";
+        Nameh="Chloe";
         Weapon="Svärd"; 
         WeaponHp=60;  
     }    

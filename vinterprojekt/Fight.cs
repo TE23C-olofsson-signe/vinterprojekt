@@ -2,13 +2,13 @@ using System;
 
 namespace vinterprojekt;
 
-public class Fight 
+public class Fight: Hero
 {
     
-    public void Attackwhale( string Name,string Weapon,string NameV,int WeaponHp,int VillainHP)
+    public void Attackwhale( string Nameh,string Weapon,string NameV,int WeaponHp,int VillainHP)
     {
-        Console.WriteLine();
-        while (true)
+        Console.WriteLine($"{Nameh} attackerar {NameV} med sitt{Weapon}");
+        while (VillainHP>0)
         {
             
         }

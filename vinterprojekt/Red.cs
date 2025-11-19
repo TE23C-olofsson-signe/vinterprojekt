@@ -6,7 +6,7 @@ using System.Runtime.CompilerServices;
 public class Red : Hero 
 {
     public Red() {
-        Name="Red"; 
+        Nameh="Red"; 
         Weapon="Clock"; 
         WeaponHp=40; 
     }
