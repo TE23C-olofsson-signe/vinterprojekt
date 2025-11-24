@@ -1,8 +1,3 @@
-
-
-using System.Runtime;
-using System.Runtime.CompilerServices;
-
 public class Red : Hero 
 {
     public Red() {
