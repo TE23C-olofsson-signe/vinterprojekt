@@ -5,5 +5,6 @@ public Chloe()
         Nameh="Chloe";
         Weapon="Svärd"; 
         WeaponHp=60;  
+        savename="Ella"; 
     }    
 }

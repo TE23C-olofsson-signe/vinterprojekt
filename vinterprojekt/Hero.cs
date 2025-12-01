@@ -3,9 +3,7 @@ public class Hero
     public string Nameh;
     public string Weapon;
     public int WeaponHp;
-        public int Hp;
-        private string savename="Merlin"; 
-
+    protected string savename; 
     public void Attack(Villain target)
     {
         Console.WriteLine($"{Nameh} attackerar {target.NameV} med sitt{Weapon}");
@@ -40,4 +38,5 @@ public class Hero
         }
         Console.WriteLine($"Yay du räddade{savename} ");
     }
+
 }

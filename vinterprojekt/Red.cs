@@ -3,7 +3,8 @@ public class Red : Hero
     public Red() {
         Nameh="Red"; 
         Weapon="Clock"; 
-        WeaponHp=40; 
+        WeaponHp=80; 
+        savename="Melin";
     }
 
     private void Fireatack()
