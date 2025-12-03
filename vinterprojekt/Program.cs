@@ -26,11 +26,20 @@ if (Heroname=="Red")
     Red r=new(); 
     Uliana u=new(); 
     r.Attack(u); 
+    Queen_of_hearts q=new();
+    r.Attack(q); 
     r.Attacksave(u); 
+    r.Attacksave(q); 
 }
 else
 {
-    Chloe ch=new(); 
+    Chloe c=new(); 
+    Uliana u=new(); 
+    Queen_of_hearts q=new();
+    c.Attack(q); 
+    c.Attack(u); 
+    c.Attacksave(q); 
+    c.Attacksave(u); 
 }
 
 
