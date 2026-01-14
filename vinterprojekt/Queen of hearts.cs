@@ -1,6 +1,6 @@
-public class Queen_of_hearts:Villain
+public class QueenOfHearts:Villain
 {
-    public Queen_of_hearts()
+    public QueenOfHearts()
     {
         NameV="Queen of hearts"; 
         VillainHP=1000; 
